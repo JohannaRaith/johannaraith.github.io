@@ -14,6 +14,13 @@
       line-height: 1.6;
     }
 
+    .profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+
     nav {
       background-color: #e6e6ff;
       padding: 10px 20px;
@@ -90,19 +97,30 @@
     font-size: 16px;
   }
 
-  h1, h2 {
-    font-size: 20px;
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 26px;
   }
 
   p {
     font-size: 16px;
   }
+      
+  /* Center nav links on mobile */
+nav {
+  text-align: center;
+}
 
-  nav a {
-    display: block;
-    margin: 10px 0;
-    font-size: 18px;
-  }
+/* Stack nav links vertically (optional, can remove if not desired) */
+nav a {
+  display: inline-block;  /* or block if you want stacked links */
+  margin: 10px;
+  font-size: 18px;
+}
+
 }
   </style>
 </head>
@@ -129,7 +147,7 @@
     <ul>
       <li>
         College choices, truthtelling and its' impact on matching quality in college – with 
-        <a href="https://sites.google.com/site/dejankovacecon/" target="_blank">Dejan Kovac</a>
+        <a href="https://sites.google.com/site/dejankovacecon/" target="_blank">Dejan Kovac</a> and <a href="https://christopherneilson.github.io/" target="_blank">Christopher Neilson</a>
       </li>
       <li>
         Drivers of college choice – single-authored

@@ -126,19 +126,29 @@
     font-size: 16px;
   }
 
-  h1, h2 {
-    font-size: 20px;
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 26px;
   }
 
   p {
     font-size: 16px;
   }
 
-  nav a {
-    display: block;
-    margin: 10px 0;
-    font-size: 18px;
-  }
+  /* Center nav links on mobile */
+nav {
+  text-align: center;
+}
+
+/* Stack nav links vertically (optional, can remove if not desired) */
+nav a {
+  display: inline-block;  /* or block if you want stacked links */
+  margin: 10px;
+  font-size: 18px;
+}
 }
   </style>
 </head>
